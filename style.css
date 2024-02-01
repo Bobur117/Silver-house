@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container{
+    
+    width: 100%;
+    max-width: 1100px;
+    padding: 0 15px;
+    margin: 0 auto;   
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.nav__content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.nav__content-logo{
+    margin-top: 50px;
+    margin-bottom: 79px;  
+}
+
+.nav__content-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+    
+    
+}
+
+.list-link{
+    color: #8C8A8A;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.header__content {
+    height: 450px;
+    background: url('images/header-bg.png');
+    background-repeat: no-repeat;
+
+}
+
+.main__content{
+    
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.main__content-box1{
+    background: var(--grey, #F0F0F0);
+    max-width: 730px;
+    padding: 50px 95px 51px 40px;  
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+.main__content-box1 p {
+    max-width: 595px;
+}
+.main__content-box2 p {
+    max-width: 286px;
+}
+
+.main__content-box2{
+    max-width: 350px;
+    background: var(--grey, #F0F0F0);
+    padding: 50px 24px 51px 40px;
+    
+}
+
+.main__content-box-title{
+    color: #4581B7;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.main__content-box-text{
+    
+    color: #808080;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 168.75% */
+}
+.footer__content{
+    background: var(--grey, #F0F0F0);
+    padding: 15px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.footer__info{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+    
+}
+.callcenter{
+    color: #808080;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.phonenumber{
+    color: #808080;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+   
+    
+}
